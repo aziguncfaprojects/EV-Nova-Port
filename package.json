@@ -1,0 +1,35 @@
+{
+  "name": "keyra-authenticator",
+  "version": "1.0.0",
+  "description": "A private, installable TOTP authenticator",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aziguncfaprojects/EV-Nova-Port.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aziguncfaprojects/EV-Nova-Port/issues"
+  },
+  "homepage": "https://github.com/aziguncfaprojects/EV-Nova-Port#readme",
+  "dependencies": {
+    "@zxing/browser": "^0.2.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4",
+    "vite-plugin-pwa": "^2.0.0"
+  }
+}
