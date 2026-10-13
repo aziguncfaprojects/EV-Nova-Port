@@ -241,7 +241,7 @@ export default function App() {
         </section>}
       </div>
 
-      <footer><span><Icon name="shield" size={15} />On-device encryption</span><span>Keyra never sends or backs up your codes</span></footer>
+      <footer><span><Icon name="shield" size={15} />On-device storage</span><span>Keyra never sends or backs up your codes</span></footer>
       {adding && <AddSheet onClose={() => setAdding(false)} onAdd={addAccount} />}
     </main>
   )
